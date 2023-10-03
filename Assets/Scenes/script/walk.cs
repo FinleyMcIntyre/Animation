@@ -37,7 +37,7 @@ public class walk : MonoBehaviour
        if (Input.GetKey("space") == true)
         {
             print("player pressed space");
-            rb.AddForce(new Vector3(0, 0.25f, 0), ForceMode2D.Impulse);
+            rb.AddForce(new Vector3(0, 0.05f, 0), ForceMode2D.Impulse);
         }
     }
 }
