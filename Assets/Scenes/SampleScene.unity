@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 256919704}
   - component: {fileID: 256919703}
   - component: {fileID: 256919705}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -311,7 +311,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.11464179, g: 0.052643314, b: 0.8584906, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -448,7 +448,7 @@ SpriteRenderer:
   m_Size: {x: 0.49, y: 0.69}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &415834995
@@ -819,7 +819,7 @@ SpriteRenderer:
   m_Size: {x: 0.66, y: 0.92}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &988970567
@@ -848,7 +848,7 @@ GameObject:
   - component: {fileID: 1156807081}
   - component: {fileID: 1156807080}
   - component: {fileID: 1156807079}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX-Village-Props_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
