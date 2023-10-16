@@ -45,6 +45,6 @@ public class walk : MonoBehaviour
         {
             print("player pressed space");
             rb.AddForce(new Vector3(0, 10.15f, 0), ForceMode2D.Impulse);
-        }
+        } 
     }
 }
