@@ -8,12 +8,16 @@ public class walk : MonoBehaviour
     Animator anim;
     Helperscript helper;
     bool grounded;
+    float speed;
+    float nspeed;
     // Start is called before the first frame update
     void Start()
     {
         print("start");
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        speed = 4f;
+        nspeed = -4;
 
         // Add the helper script and store a reference to it                                               
         helper = gameObject.AddComponent<Helperscript>();
@@ -28,7 +32,7 @@ public class walk : MonoBehaviour
         {
             print("player pressed a");
             transform.position = new Vector2(transform.position.x +
-            (-3.5f * Time.deltaTime), transform.position.y);
+            (nspeed * Time.deltaTime), transform.position.y);
             anim.SetBool("walk", true);
             helper.FlipObject(true);
         }
@@ -36,7 +40,7 @@ public class walk : MonoBehaviour
         {
             print("player pressed d");
             transform.position = new Vector2(transform.position.x +
-            (3.5f * Time.deltaTime), transform.position.y);
+            (speed * Time.deltaTime), transform.position.y);
             anim.SetBool("walk", true);
             helper.FlipObject(false);
         }
@@ -44,7 +48,13 @@ public class walk : MonoBehaviour
         if (Input.GetKeyDown("space") == true && grounded == true)
         {
             print("player pressed space");
-            rb.AddForce(new Vector3(0, 10.15f, 0), ForceMode2D.Impulse);
+            rb.AddForce(new Vector3(0, 15f, 0), ForceMode2D.Impulse);
         } 
+        if(Input.GetKey("z") == true)
+        {
+            print("Player pressed z");
+            speed = 18;
+            nspeed = -18;
+        }
     }
 }

@@ -182,12 +182,12 @@ TextureImporter:
       name: Penguin_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 734
-        width: 180
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 56
+        y: 735
+        width: 178
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: Penguin_1
       rect:
         serializedVersion: 2
-        x: 309
-        y: 734
-        width: 181
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 310
+        y: 735
+        width: 179
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: Penguin_2
       rect:
         serializedVersion: 2
-        x: 579
-        y: 726
-        width: 193
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 580
+        y: 727
+        width: 190
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -245,12 +245,12 @@ TextureImporter:
       name: Penguin_3
       rect:
         serializedVersion: 2
-        x: 846
-        y: 726
-        width: 195
-        height: 203
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 847
+        y: 727
+        width: 193
+        height: 201
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -266,12 +266,12 @@ TextureImporter:
       name: Penguin_4
       rect:
         serializedVersion: 2
-        x: 1115
-        y: 734
-        width: 185
-        height: 202
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1117
+        y: 735
+        width: 181
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -287,12 +287,12 @@ TextureImporter:
       name: Penguin_5
       rect:
         serializedVersion: 2
-        x: 1374
-        y: 726
-        width: 180
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1375
+        y: 727
+        width: 178
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -308,12 +308,12 @@ TextureImporter:
       name: Penguin_6
       rect:
         serializedVersion: 2
-        x: 1628
-        y: 734
-        width: 181
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1629
+        y: 735
+        width: 178
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -329,12 +329,12 @@ TextureImporter:
       name: Penguin_7
       rect:
         serializedVersion: 2
-        x: 1811
-        y: 726
-        width: 180
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1812
+        y: 727
+        width: 178
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,7 +349,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7dc51c060b116a84a8f67e98712e1838
     internalID: 0
     vertices: []
     indices: 

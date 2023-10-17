@@ -56,5 +56,28 @@ public class Helperscript : MonoBehaviour
         return green;
     }
 
+    public bool ExtendedRayCollisionCheck(float xoffs, float yoffs)
+    {
+        float rayLength = 0.5f;
+        bool hitSomething = false;
+
+        Vector3 offset = new Vector3(xoffs, yoffs, 0);
+
+        RaycastHit2D hit;
+
+        hit = Physics2D.Raycast(transform.position + offset, -Vector2.up, rayLength, GroundLayerMask);
+
+        Color hitColor = Color.white;
+
+        if(hit.collider != null)
+        {
+            print("Player has collided with the Ground layer");
+            hitColor= Color.green;
+            hitSomething = true;
+        }
+
+        Debug.DrawRay(transform.position + offset, -Vector2.up * rayLength, hitColor);
+        return hitSomething;
+    }
 
 }
